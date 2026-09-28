@@ -18,11 +18,12 @@
                 Console.WriteLine();
                 if(i == 4 && j == 5)
                 {
-                    return;
+                    goto koniec;
                 }
             }
         }
-    
+    koniec:
+        Console.WriteLine("Zakończono pracę pętli");
 
     
 
